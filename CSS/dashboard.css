@@ -1,0 +1,65 @@
+body{
+    background-color: #2e3035;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #171544;
+    position: fixed;
+    padding:15px;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.nav_btn{
+    background-color: #44b76e;
+    color: white;
+    font-size: medium;
+    padding:10px;
+    border-radius: 2px;
+    outline: none;
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.support_btn{
+    background-color: #6432f9;
+    color: white;
+    color: white;
+    font-size: medium;
+    padding:10px;
+    border-radius: 2px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    margin:10px;
+    cursor: pointer;
+   
+
+}
+.search_bar{
+    padding: 10px;
+    background-color: #46446a;
+    color:whitesmoke;
+    width:50%;
+    margin-left:10px;
+    text-decoration: none;
+    border:none;
+    font-size: medium;
+}
+.icons_bar{
+    color:white;
+    font-size: xx-large;
+    margin: 10px;
+    cursor: pointer;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float:right;
+}
