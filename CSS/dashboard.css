@@ -5,13 +5,15 @@ body{
 .flex{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     background-color: #171544;
+    justify-content: space-evenly;
     position: fixed;
-    padding:15px;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
     top:0;
     left:0;
-    width: 100%;
+
 }
 .nav_btn{
     background-color: #44b76e;
@@ -38,8 +40,6 @@ body{
     border: none;
     margin:10px;
     cursor: pointer;
-   
-
 }
 .search_bar{
     padding: 10px;
