@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.back{
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-size: 13px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+}
+
+.display > div{
+    width: 15%;
+    height: 50px;
+}
