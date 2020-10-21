@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.back{
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.text{
+    text-align: center;
+    font-size: 13px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: 0.5%;
+}
+
+.display > div{
+    width: 15%;
+    height: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
+}
+
+.display > div:nth-child(1){
+    border: 1px solid blue;
+}
+
+.display > div:nth-child(1):hover{
+    background-color: blue;
+}
+
+.display > div:nth-child(2){
+    border : 1px solid rgb(8, 72, 97)
+}
+
+.display > div:nth-child(2):hover{
+    background-color: rgb(8, 72, 97);
+}
+
+.display > div:nth-child(3){
+    border: 1px solid white;
+}
+
+.display > div:nth-child(3):hover{
+    background-color: white;
+}
+
+.display > div:nth-child(4){
+    border: 1px solid rgb(31, 87, 109);
+}
+
+.display > div:nth-child(4):hover{
+    background-color: rgb(31, 87, 109);
+}
+
+.display > div:nth-child(5){
+    border: 1px solid purple;
+}
+
+.display > div:nth-child(5):hover{
+    background-color: purple
+}
+
+.form{
+    background-color: grey;
+    padding: 0.5%;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+.form > input{
+    background-color: rgb(44, 43, 43);
+    border: 1px solid rgb(44, 43, 43);
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 2%;
+    width: 97%;
+}
+
+.next_page{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+.next{
+    margin-left: 65%;
+    margin-right: 5%;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.next_page > a > button{
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+    padding: 2%;
+} 
+
+.small{
+    font-size: 12px;
+    text-align: center;
+}
+
+.ref{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.ref:hover{
+    text-decoration: underline;
+}

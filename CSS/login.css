@@ -86,7 +86,7 @@ body{
     padding: 0.5%;
     width: 20%;
     margin-left: 40%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .form > div:nth-child(1){
@@ -130,12 +130,15 @@ body{
     margin-top: 1%;
 }
 
-em{
-    margin-left: 35%;
+.next{
+    margin-left: 40%;
     margin-right: 5%;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
 }
 
-.next_page > button{
+.next_page > a > button{
     background-color: blue;
     border-radius: 5px;
     border: 1px solid blue;
