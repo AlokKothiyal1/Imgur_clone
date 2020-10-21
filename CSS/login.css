@@ -13,6 +13,8 @@ body{
 
 .logo{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .text{
@@ -22,10 +24,121 @@ body{
 
 .display{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 20%;
+    background-color: grey;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: 0.5%;
 }
 
 .display > div{
     width: 15%;
     height: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 10px;
 }
+
+.display > div:nth-child(1){
+    border: 1px solid blue;
+}
+
+.display > div:nth-child(1):hover{
+    background-color: blue;
+}
+
+.display > div:nth-child(2){
+    border : 1px solid rgb(8, 72, 97)
+}
+
+.display > div:nth-child(2):hover{
+    background-color: rgb(8, 72, 97);
+}
+
+.display > div:nth-child(3){
+    border: 1px solid white;
+}
+
+.display > div:nth-child(3):hover{
+    background-color: white;
+}
+
+.display > div:nth-child(4){
+    border: 1px solid rgb(31, 87, 109);
+}
+
+.display > div:nth-child(4):hover{
+    background-color: rgb(31, 87, 109);
+}
+
+.display > div:nth-child(5){
+    border: 1px solid purple;
+}
+
+.display > div:nth-child(5):hover{
+    background-color: purple
+}
+
+.form{
+    background-color: grey;
+    padding: 0.5%;
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+.form > div:nth-child(1){
+    margin-bottom: 2%;
+}
+
+.form > div:nth-child(1) > input{
+    width: 95%;
+    background-color: rgb(44, 43, 43);
+    border: 1px solid rgb(44, 43, 43);
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+}
+
+.form > div:nth-child(2) > input{
+    width: 70%;
+    background-color: rgb(44, 43, 43);
+    border: 1px solid rgb(44, 43, 43);
+    padding: 1%;
+    border-radius: 5px;
+    color: white;
+}
+
+.form > div:nth-child(2) > button{
+    width: 23%;
+    font-size: 10px;
+    color:rgb(44, 43, 43);
+    background-color: rgb(97, 96, 96);
+    border: 1px solid rgb(97, 96, 96);
+    padding:2%;
+}
+
+.form > div:nth-child(2) > button:hover{
+    color: white;
+}
+
+.next_page{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+em{
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+.next_page > button{
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid blue;
+    color: white;
+    padding: 2%;
+} 
